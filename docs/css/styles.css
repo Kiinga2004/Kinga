@@ -7,7 +7,6 @@
 
 }
 
-
 h1 {
     margin-block-start: 0px;
     font-family: 'Caveat', cursive;
@@ -34,12 +33,15 @@ hr {
     border-style: none;              
     border-top-style: dotted;
     border-color:#584153;
-    border-width: 8;
-    height: 0px;
+    border-width: 8px;
+    height: 0;
     width: 10%;
+
 }
 
 /*-------------------------------------------CLASS SELECTOR--------------------------------------------*/
+
+                                        /*KÉPEK A FELSŐ DIV-BEN*/
 
 .cloud {
     width:133px;
@@ -53,9 +55,7 @@ hr {
     position: relative;
 }
 
-.mountains {
-    
-}
+                                             /*DIVEK*/
 
 .felso{
     background-color: #efd9d1;
@@ -68,13 +68,14 @@ hr {
 .also {
     background-color: #584153;
 }
-
+                                                /*SKILL DIV*/
 .skill-row {
     width: 50%;
     margin: 100px auto 100px auto;
     text-align: left;
     line-height: 2;
 }
+
 .skill {
     width: 25%;
     float: left;
@@ -86,32 +87,19 @@ hr {
     width: auto;
 }
 
-.myButton {
-	background:linear-gradient(to bottom, #ad9d9d 5%, #997892 100%);
-	background-color:#ad9d9d;
-	border-radius:15px;
-	border:1px solid #a88a92;
-	display:inline-block;
-	cursor:pointer;
-	color:#3d3032;
-	font-family:Georgia;
-	font-size:17px;
-	font-weight:bold;
-	padding:16px 27px;
-	text-decoration:none;
+.des {
+    width: 30%;
+    margin:auto;
+    line-height: 2;
+    font-family: 'arial', sans-serif;
 }
-.myButton:hover {
-	background:linear-gradient(to bottom, #d9adad 5%, #fccbcb 100%);
-	background-color:#d9adad;
-}
-.myButton:active {
-	position:relative;
-	top:1px;
-}
+
+                                              /* ALSÓ RÉSZ*/
 
 .also-link {
     color: white;
 }
+
 .also-link:hover {
     color: pink ;
 }
@@ -128,6 +116,30 @@ hr {
     color: #ad9d9d ;
 }
 
+.myButton {
+	background:linear-gradient(to bottom, #ad9d9d 5%, #997892 100%);
+	background-color:#ad9d9d;
+	border-radius:15px;
+	border:1px solid #a88a92;
+	display:inline-block;
+	cursor:pointer;
+	color:#3d3032;
+	font-family:Georgia;
+	font-size:17px;
+	font-weight:bold;
+	padding:16px 27px;
+	text-decoration:none;
+}
+
+.myButton:hover {
+	background:linear-gradient(to bottom, #d9adad 5%, #fccbcb 100%);
+	background-color:#d9adad;
+}
+
+.myButton:active {
+	position:relative;
+	top:1px;
+}
 /*-------------------------------------------ID SELECTOR--------------------------------------------*/
 
 #bird1{
@@ -156,6 +168,10 @@ hr {
     margin-left: 30px;
 }
 
-#email {
-    background-color: #efd9d1;
+#hr1 {
+    margin-top: 50px;
+}
+
+#hr2 {
+    margin-bottom:50px;
 }
